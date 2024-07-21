@@ -1,0 +1,7 @@
+---
+hostname: dev-box
+resource:
+ cpu: 2
+ memory: 4096
+software:
+  box: generic/ubuntu2204
