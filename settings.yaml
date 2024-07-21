@@ -1,5 +1,7 @@
 ---
 hostname: dev-box
+sa:
+  user: daniel.huynh
 resource:
  cpu: 2
  memory: 4096
