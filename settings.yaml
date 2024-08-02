@@ -3,7 +3,7 @@ hostname: dev-box
 sa:
   user: daniel.huynh
 resource:
- cpu: 2
- memory: 4096
+  cpu: 4
+  memory: 8192
 software:
   box: generic/ubuntu2204
