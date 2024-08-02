@@ -12,4 +12,6 @@ Vagrant.configure("2") do |config|
   end
   config.vm.hostname = settings["hostname"]
   config.vm.provision "shell", path: "scripts/common.sh"
+  config.ssh.forward_agent = true
+  config.ssh.config = "../../.ssh/config"
 end
